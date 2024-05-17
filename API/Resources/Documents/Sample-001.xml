@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="TrafficData.xsl"?>
+<TrafficData Version="3.5">
+	<Header>
+			<SystemName>XYZ123</SystemName>
+			<Vendor>OmarGroupOfCompnies</Vendor>
+			<Subsystem>NVR</Subsystem>
+			<Location0>DubaiStreets</Location0>
+			<Location1>Uroubah Road</Location1>
+			<Location2>Dubai</Location2>
+			<LaneCount>4</LaneCount>
+			<Begin>2023-11-22T00:00:00+03:00</Begin>
+			<End>2023-11-22T23:59:59+03:00</End>
+			<SessionID>2402042234</SessionID>
+			<CaseCount>0</CaseCount>
+	</Header>
+	<Events>
+		<m t = "2023-11-22T00:00:01.469+03:00" n = "1" c = "car" li = "4" o = "" v = "10" di = "0"/>
+		<m t = "2023-11-22T00:00:08.783+03:00" n = "2" c = "car" li = "2" o = "" v = "20" di = "0"/>
+		<m t = "2023-11-22T00:00:10.736+03:00" n = "3" c = "car" li = "3" o = "" v = "40" di = "0"/>
+		<m t = "2023-11-22T00:00:11.918+03:00" n = "4" c = "car" li = "2" o = "" v = "99" di = "0"/>
+		<m t = "2023-11-22T00:00:16.184+03:00" n = "5" c = "car" li = "2" o = "SP" v = "150" di = "0"/>
+		<m t = "2023-11-22T00:00:20.651+03:00" n = "6" c = "car" li = "3" o = "" v = "0" di = "0"/>
+		<m t = "2023-11-22T00:00:29.491+03:00" n = "7" c = "car" li = "1" o = "" v = "0" di = "0"/>
+		<m t = "2023-11-22T00:00:30.784+03:00" n = "8" c = "car" li = "3" o = "" v = "0" di = "1"/>
+		<m t = "2023-11-22T00:00:32.158+03:00" n = "9" c = "motorcycle" li = "2" o = "" v = "0" di = "0"/>
+		<m t = "2023-11-22T00:00:37.451+03:00" n = "10" c = "car" li = "4" o = "" v = "0" di = "1"/>
+		<m t = "2023-11-22T00:00:39.092+03:00" n = "11" c = "car" li = "1" o = "" v = "0" di = "1"/>
+		<m t = "2023-11-22T23:32:07.784+03:00" n = "12" c = "truck" li = "3" o = "" v = "0" di = "0"/>
+		<m t = "2023-11-22T23:32:08.751+03:00" n = "13" c = "car" li = "1" o = "" v = "0" di = "0"/>
+		<m t = "2023-11-22T23:32:09.851+03:00" n = "14" c = "truck" li = "3" o = "" v = "0" di = "0"/>
+		<m t = "2023-11-22T23:50:43.889+03:00" n = "15" c = "unknown" li = "3" o = "" v = "0" di = "0"/>
+		<m t = "2023-11-22T23:56:07.217+03:00" n = "16" c = "unknown" li = "4" o = "" v = "0" di = "0"/>
+	</Events>
+</TrafficData>
