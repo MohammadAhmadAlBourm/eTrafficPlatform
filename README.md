@@ -46,7 +46,7 @@ The project is organized following Clean Architecture principles, ensuring separ
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/eTrafficPlatform.git](https://github.com/MohammadAhmadAlBourm/eTrafficPlatform.git
+   git https://github.com/MohammadAhmadAlBourm/eTrafficPlatform.git
    cd eTrafficPlatform
    ```
 
@@ -88,7 +88,7 @@ The project is organized following Clean Architecture principles, ensuring separ
 
 ### DocumentController
 
-- `POST /api/fileupload`: Upload traffic data file in XML format. This triggers an event to parse the file and save the data to the database.
+- `POST /api/documents`: Upload traffic data file in XML format. This triggers an event to parse the file and save the data to the database.
 
 ## Global Exception Handling
 
