@@ -4,8 +4,14 @@ using Application;
 using Infrastructure;
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.Extensions.FileProviders;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Host.UseSerilog((context, configuration) =>
+{
+    configuration.ReadFrom.Configuration(context.Configuration);
+});
 
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
@@ -55,4 +61,5 @@ app.UseCors();
 
 app.MapControllers();
 
+app.UseSerilogRequestLogging();
 app.Run();
