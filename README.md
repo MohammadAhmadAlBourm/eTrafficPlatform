@@ -103,5 +103,11 @@ Contributions are welcome! Please fork the repository and submit pull requests.
 This project is licensed under the MIT License.
 
 ---
+## Support
 
+If you find this project helpful and want to support its development, consider buying me a coffee:
+
+<a href="https://www.buymeacoffee.com/mohammadbourm" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+---
 Thank you for using eTrafficPlatform! If you have any questions or need further assistance, please feel free to contact us. Happy coding!
